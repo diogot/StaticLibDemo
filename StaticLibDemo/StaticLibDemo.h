@@ -10,4 +10,6 @@
 
 @interface StaticLibDemo : NSObject
 
++ (void)demo;
+
 @end

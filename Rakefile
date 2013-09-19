@@ -9,7 +9,7 @@ end
 
 desc "Build arm64"
 task :build_arm64 do
-  xcodebuild('iphoneos7.0', 'arm64', '6.0', 'build-arm64')
+  xcodebuild('iphoneos7.0', 'arm64', '7.0', 'build-arm64')
 end
 
 desc "Build i386"
@@ -19,7 +19,7 @@ end
 
 desc "Build x86_64"
 task :build_x86_64 do
-  xcodebuild('iphonesimulator7.0', 'x86_64', '6.0', 'build-x86_64')
+  xcodebuild('iphonesimulator7.0', 'x86_64', '7.0', 'build-x86_64')
 end
 
 desc "Build fat"
